@@ -1,0 +1,25 @@
+
+
+SmartRobotCarV4.0_V1_20220303
+
+1#Compatible with TB6612 motor drive version
+2#GY-521
+
+
+Controller：uno
+Obstacle detection module：HC-SRO4
+Line tracking module：LTI-PCB
+Gyro module：GY-521
+Motor driver：TB6612
+Camera module：ESP32-WROVER
+
+
+
+***************************************************************************
+
+张德智   20220303
+
+1.因为最新的AVR BOARD编译出错，所以去掉软件中断库PinChangeInt，改为硬件中断0
+Because the latest AVR BOARD compilation error, remove the software interrupt library PinChangeInt and change it to hardware interrupt 0
+
+***************************************************************************
